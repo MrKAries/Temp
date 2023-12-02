@@ -1,0 +1,42 @@
+[
+  {
+    "key": "home",
+    "icon": "home",
+    "label": "首页"
+  },
+  {
+    "key": "shopping",
+    "icon": "shangcheng",
+    "label": "商城管理"
+  },
+  {
+    "key": "commodity",
+    "icon": "shangpinguanli",
+    "label": "商品管理"
+  },
+  {
+    "key": "orders",
+    "icon": "dingdan",
+    "label": "订单管理"
+  },
+  {
+    "key": "member",
+    "icon": "huiyuan",
+    "label": "会员管理"
+  },
+  {
+    "key": "cases",
+    "icon": "a-ziyuan652",
+    "label": "案例管理"
+  },
+  {
+    "key": "users",
+    "icon": "yonghu",
+    "label": "用户管理"
+  },
+  {
+    "key": "afterSales",
+    "icon": "weixiujilu",
+    "label": "售后管理"
+  }
+]

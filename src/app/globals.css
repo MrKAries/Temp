@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.ant-btn {
+  border-radius: 20px;
+}
+.ant-btn-default {
+  color: #333 !important;
+  border-color: #d3c029 !important;
+}
+.ant-btn-primary {
+  background-color: #d3c029 !important;
+}
+.ant-btn-link {
+  padding: 5px;
+  color: #d3c029 !important;
+}
+
+.toggle-add-enter {
+  opacity: 0;
+}
+.toggle-add-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.toggle-add-exit {
+  opacity: 1;
+}
+.toggle-add-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
